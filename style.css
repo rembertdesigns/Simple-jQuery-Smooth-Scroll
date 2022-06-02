@@ -72,3 +72,24 @@ header a:last-child {
 .content section:nth-child(5) {
   background-color: #98B4D4;
 }
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000;
+  text-align: center;
+}
+.footer p {
+text-decoration: none;
+color: #fff;
+}
+.footer a {
+  text-decoration: none;
+  color: #36c5f0;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #ecb22e;
+}
